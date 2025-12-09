@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(224.68deg, rgba(169.72, 1.28, 172.58, 1), rgba(59.96, 18.12, 91.95, 1) 22%, rgba(88.97, 27.49, 129.95, 1) 40%, rgba(123.39, 45.51, 175.31, 1) 50%, rgba(175.31, 45.51, 162.33, 1) 76%, rgba(152.02, 20.46, 138.86, 1) 90%);
+    min-height: 100vh;
+}
+.back {
+
+    text-align: left;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(113, 8, 211, 0.5);
+    height: 100%;
+
+    font-size: 19pt;
+    text-align: center;
+}
+.z2000:hover .tip {
+    visibility: visible;
+    transition: all 5s ease;
+    font-size: 10pt;
+    width: 703px;
+    height: 4311px;
+}
+.z2000 {
+    position: relative;
+    color: rgba(0, 0, 0, 1);
+
+font-family: Archivo;
+font-size: 20px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: left;
+background-color: blueviolet;
+}
+
+.tip {  
+    width:  0;
+    height: 0px;
+    background-color: bisque;
+    border-radius: 30px;
+    position: absolute;
+    top: 60px;
+    right: -60px;
+    visibility: hidden;
+    color: rgba(0, 0, 0, 1);
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: left; 
+    
+}

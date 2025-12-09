@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "try";
+    src: url(../hounts/ofont.ru_Farang.ttf);
+}
+li:empty::after {
+    background-color: rgb(230, 0, 0);
+    content: "Нет данных";
+    font-family: "try";
+}
+li:hover  {
+    background-color: rgb(0, 255, 34);
+
+}
+li:not(:empty):hover {
+    background-color: rgb(255, 255, 255);
+}
+li:first-child {
+    color: aqua;
+    background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "try";
+    src: url(../hounts/ofont.ru_Wild\ Rune.ttf);
+}
+td {
+    text-align: center;  
+}
+b {
+    font-size: 16pt;
+    font-family: 'try', Times, serif;
+    color: blue;
+    font-weight: bold;
+    list-style: 2;
+    font-style: italic;
+}
+h1 {
+    color: chartreuse;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: black;
+    font-size: 30pt;
+}
+a {
+   color: brown; 
+}
+i{
+    font-style: normal; 
+    text-align: center;
+    font-size: 22pt;
+}
+img{
+    text-align: center;
+}

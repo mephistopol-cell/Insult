@@ -1,0 +1,9 @@
+div p {
+    color: blue;
+}
+div.content>p {
+    color:  red;
+}
+p#highlight {
+    color: yellow;
+}

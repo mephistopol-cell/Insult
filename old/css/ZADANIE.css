@@ -1,0 +1,23 @@
+li:hover {
+    color: greenyellow;
+    
+}
+li:first-child {
+    color: rgb(211, 0, 0);
+}
+li:last-child::after {
+    content: "✹";
+}
+tr:nth-child(2n) {
+    background-color: rgb(194, 178, 178);x
+}
+td::before {
+    content: "Отзыв пользователя:";
+}
+td::after {
+    content: "✮✮✮✮✮";
+}
+div:nth-child(2n) {
+    background-color: aqua;
+}
+
