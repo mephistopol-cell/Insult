@@ -2,68 +2,76 @@ a {
     font-size: 30pt;
     background-color: rgba(137, 43, 226, 0.295);
 }
+
 .card {
     width: 340px;
     height: 532px;
     border-radius: 51px;
     background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, rgba(122, 0, 163, 1) 0deg, rgba(180, 160, 208, 1) 100.80000000000001deg, rgba(82, 20, 118, 1) 144deg, rgba(139, 97, 199, 1) 216deg, rgba(130, 83, 196, 1) 284.40000000000003deg, rgba(87, 15, 186, 1) 360deg, rgba(122, 0, 163, 1) 360deg);
-    }
-    .name {
-        text-align: center;
-        font-size: 32px;
-    
-    }
-    .photo {
-        
-        width: 90%;
-        height: 400px;
-        margin: auto;
-    }
-    
-    .photo img {
-        width: 100%;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .cost {
-        text-align: center;
-        font-size: 25px;
-    }
-    body {
-        padding: 0;
-        margin: 0;
-        min-height: 100vh;
-        background: linear-gradient(224.68deg, rgba(169.72, 1.28, 172.58, 1), rgba(59.96, 18.12, 91.95, 1) 22%, rgba(88.97, 27.49, 129.95, 1) 40%, rgba(123.39, 45.51, 175.31, 1) 50%, rgba(175.31, 45.51, 162.33, 1) 76%, rgba(152.02, 20.46, 138.86, 1) 90%);
-    }
-    .content {
-        padding: 20px;
-        text-align: left;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
-    p, ul, li {
-        color: rgba(211, 0, 0, 1);
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 103.01%;
-        letter-spacing: 0%;
-    }
-    
-    ul {
-        list-style-type: none;
-        padding-left: 0;
-    }
-    
-    .footer-text {
-        color: rgba(211, 0, 0, 1);
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 103.01%;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-top: 30px; 
-    }
+}
+
+.name {
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.photo {
+
+    width: 90%;
+    height: 400px;
+    margin: auto;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cost {
+    text-align: center;
+    font-size: 25px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(224.68deg, rgba(169.72, 1.28, 172.58, 1), rgba(59.96, 18.12, 91.95, 1) 22%, rgba(88.97, 27.49, 129.95, 1) 40%, rgba(123.39, 45.51, 175.31, 1) 50%, rgba(175.31, 45.51, 162.33, 1) 76%, rgba(152.02, 20.46, 138.86, 1) 90%);
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p,
+ul,
+li {
+    color: rgba(211, 0, 0, 1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 103.01%;
+    letter-spacing: 0%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-text {
+    color: rgba(211, 0, 0, 1);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 103.01%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
+}
