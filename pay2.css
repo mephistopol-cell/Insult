@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(113, 8, 211, 0.5);
+    height: 30px;
+
+    font-size: 19pt;
+    text-align: center;
+}
+#about {
+   
+    border: 2px  solid;
+   border-radius: 5%
+}
+#tel {
+   border: 2px  solid;
+   border-radius: 5%;
+}
+.pay { 
+   border-radius: 5%;
+   width: 350px;
+   font-size: 14pt;
+   color: rgb(255, 255, 255);
+   margin: 10px auto;
+   background-position: center;
+   background-size: cover; 
+}
+#mail #telegram {
+    border: 2px  solid;
+   border-radius: 5%;
+}
+#submit {
+   border-radius: 5%;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   font-size: 16pt;
+   
+   padding: 3px;
+}   
+input {
+   margin-bottom: 6px;
+   margin-left: 7px;
+   padding: 3px;
+}
+#submit {
+   padding: 3px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(224.68deg, rgba(169.72, 1.28, 172.58, 1), rgba(59.96, 18.12, 91.95, 1) 22%, rgba(88.97, 27.49, 129.95, 1) 40%, rgba(123.39, 45.51, 175.31, 1) 50%, rgba(175.31, 45.51, 162.33, 1) 76%, rgba(152.02, 20.46, 138.86, 1) 90%);
+    min-height: 100vh;
+    background-attachment: fixed;
+}
