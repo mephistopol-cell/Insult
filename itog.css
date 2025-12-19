@@ -88,3 +88,10 @@ background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, r
     text-align: center;
     font-size: 25px;
 }
+  a {
+    color: #fff;
+     text-decoration: none;
+  }
+  a:visited, a:focus, a:hover {
+    color: #fff;
+ text-decoration: none;  }
