@@ -78,6 +78,7 @@ background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, r
 
 .photo img {
     width: 100%;
+    margin-top: 30px;
 }
 
 .container {
@@ -87,6 +88,7 @@ background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, r
 .cost {
     text-align: center;
     font-size: 25px;
+    
 }
   a {
     color: #fff;
