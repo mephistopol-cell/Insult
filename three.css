@@ -130,4 +130,13 @@ a {
     text-decoration: none;
   }
   
-  
+  .proc {
+    display: none;
+  }
+
+  .card:has(.AMD:checked)+.z2000>.AMD.proc {
+    display: block;
+  }
+  .card:has(.Intel:checked)+.z2000>.Intel.proc {
+    display: block;
+  }
