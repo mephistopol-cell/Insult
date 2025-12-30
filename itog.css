@@ -19,7 +19,7 @@ header {
 
 }
 
-.title{
+.title {
     font-size: 32pt;
     color: white;
 }
@@ -58,79 +58,86 @@ h3 {
     width: 140px;
     height: 50px;
 }
+
 .container {
-  display: grid;
-  gap: 20px;
-  padding: 20px;
-  
-  /* На десктопе - 3 колонки */
-  grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 189px;
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-/* Для средних экранов - 2 колонки */
 @media (max-width: 1024px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-/* На мобильных - 1 колонка */
 @media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
+    .container {
+        grid-template-columns: 1fr;
+    }
 }
 
-/* Стили для карточек товаров */
-.container > a {
-  text-decoration: none;
-  color: white;
-  display: block;
+.container>a {
+    text-decoration: none;
+    color: white;
+    display: block;
 }
 
+.card {
 
+    border-radius: 8px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgb(255, 255, 255);
 }
 
 .name {
-  padding: 15px;
-  font-size: 18px;
-  text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .photo {
 
-  justify-content: center;
-  align-items: center;
-  height: 400px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
 .photo img {
-  max-width: 90%;
-  max-height: 400px;
+    max-width: 100%;
+    max-height: 400px;
 
 }
 
 .cost {
-  font-size: 16px;
-  text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
 }
+
 .card {
-      overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-width: 340px;
-height: 532px;
-border-radius: 51px;
-background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, rgba(122, 0, 163, 1) 0deg, rgba(180, 160, 208, 1) 100.80000000000001deg, rgba(82, 20, 118, 1) 144deg, rgba(139, 97, 199, 1) 216deg, rgba(130, 83, 196, 1) 284.40000000000003deg, rgba(87, 15, 186, 1) 360deg, rgba(122, 0, 163, 1) 360deg);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 340px;
+    height: 550px;
+    border-radius: 51px;
+    background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, rgba(122, 0, 163, 1) 0deg, rgba(180, 160, 208, 1) 100.80000000000001deg, rgba(82, 20, 118, 1) 144deg, rgba(139, 97, 199, 1) 216deg, rgba(130, 83, 196, 1) 284.40000000000003deg, rgba(87, 15, 186, 1) 360deg, rgba(122, 0, 163, 1) 360deg);
+    margin: 0 auto;
 }
+
 .name {
     text-align: center;
     font-size: 32px;
 
 }
+
 .photo {
 
     width: 90%;
@@ -147,23 +154,29 @@ background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, r
 .cost {
     text-align: center;
     font-size: 25px;
-    
+
 }
-  a {
+
+a {
+    margin-bottom: 15px;
+    margin: auto;
+    width: 340px;
+    height: 550px;
     color: #fff;
-     text-decoration: none;
-  }
-  a:visited, a:focus, a:hover {
+    text-decoration: none;
+}
+
+a:visited,
+a:focus,
+a:hover {
     color: #fff;
- text-decoration: none;  }
+    text-decoration: none;
+}
+
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr; 
-  grid-auto-flow: column;
-   justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
+    justify-content: space-around;
 }
-
-
-
-
