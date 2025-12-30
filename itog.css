@@ -88,13 +88,7 @@ h3 {
   display: block;
 }
 
-.card {
 
-  border-radius: 8px;
-  overflow: hidden;
-
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
 .card:hover {
   transform: translateY(-5px);
@@ -115,19 +109,18 @@ h3 {
 }
 
 .photo img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 400px;
 
 }
 
 .cost {
-  padding: 15px;
-
   font-size: 16px;
-  color: #333;
   text-align: center;
 }
 .card {
+      overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 width: 340px;
 height: 532px;
 border-radius: 51px;
@@ -139,7 +132,7 @@ background: conic-gradient(from 7.31deg at 50% 50%, rgba(87, 15, 186, 1) 0deg, r
 
 }
 .photo {
-    
+
     width: 90%;
     height: 400px;
     margin: auto;
