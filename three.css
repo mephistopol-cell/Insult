@@ -135,7 +135,7 @@ a {
   }
 
   .card:has(.AMD:checked)+.z2000>.AMD.proc {
-    display: block;
+    display: block; color: ;
   }
   .card:has(.Intel:checked)+.z2000>.Intel.proc {
     display: block;
