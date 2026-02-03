@@ -1,3 +1,8 @@
 int 1 2 3
 float - 1,25
 string "привет"
+JOIN СВАЛИВАЕТ ВСЕ ЭЛИМЕНТЫ В 1 СТРОЧКУ    
+z = z.split разъеденяет слова запятой
+toLocaleUpperCase-делает все буквы маленькими
+toLocaleUpperCase-делает все буквы большими
+
