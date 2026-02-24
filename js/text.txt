@@ -38,3 +38,20 @@ do (num < 100) {
 проверка в начале операции
 for настраиваемые (let i = 0; i < 140000; num++)
 {alert(i)} 
+let obj = {
+    'name (функция)': 'name (название)'
+    "age" : 10
+}
+let obj = {
+
+};
+
+obj["nick"] = prompt();
+obj["pasword"] = prompt();
+obj["username"] = prompt();
+
+
+console.log(obj)
+alert("Ваш ник " + obj.nick );
+alert("Ваш пароль " + obj.pasword);
+alert("Ваше имя " + obj.username);
