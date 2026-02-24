@@ -42,6 +42,12 @@ let obj = {
     'name (функция)': 'name (название)'
     "age" : 10
 }
+
+obj[название]задает название по переменой
+obj.age = задает статичное название
+
+
+
 let obj = {
 
 };
@@ -55,3 +61,17 @@ console.log(obj)
 alert("Ваш ник " + obj.nick );
 alert("Ваш пароль " + obj.pasword);
 alert("Ваше имя " + obj.username);
+ФУНКЦИЯ 
+что бы найти дискриминант 
+let a = prompt();
+let b = prompt();
+let c = prompt();
+
+alert(dis(a, b, c));
+function dis(a, b, c) {
+
+    let d = b*b - 4 * a * c;
+    let x = (-b + d**0.5)/(2 * a);
+    return x;
+
+}

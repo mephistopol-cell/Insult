@@ -1,14 +1,14 @@
 "use strict";
-let obj = {
+let a = prompt();
+let b = prompt();
+let c = prompt();
 
-};
+alert(dis(a, b, c));
+function dis(a, b, c) {
 
-obj["nick"] = prompt();
-obj["pasword"] = prompt();
-obj["username"] = prompt();
+    let d = b*b - 4 * a * c;
+    let x = (-b + d**0.5)/(2 * a);
+    return x;
 
-
-console.log(obj)
-alert("Ваш ник " + obj.nick );
-alert("Ваш пароль " + obj.pasword);
-alert("Ваше имя " + obj.username);
+}
+// ax² + bx + c 
