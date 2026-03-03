@@ -75,3 +75,4 @@ function dis(a, b, c) {
     return x;
 
 }
+.toggle добавляет\убирает если нет\есть
