@@ -76,3 +76,7 @@ function dis(a, b, c) {
 
 }
 .toggle добавляет\убирает если нет\есть
+document.createelevent('div')
+
+СОЗДАЕТ ОТДЕЛЬНЫЙ div
+document.body.append(); добавляет элемент
