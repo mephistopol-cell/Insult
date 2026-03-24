@@ -37,38 +37,4 @@
 // document.body.append(elem);
 
 // })
-let data = {
-    'tasks': [
-        {
-            "name": "задача 1",
-            "status": 'x'
-        },
-        {
-            "name": "задача 2",
-                "status": 'x'
-        }
-    ]
-}
-document.querySelector('.add').addEventListener("click", () => {
-    let text = document.querySelector(".brbr").value;
-    let task = { "name": text, "status": "X" };
-    data.tasks.push(task);
-    let elem = document.createElement("li");
-    elem.textContent = text;
-    let check = document.createElement("input");
-    check.type = "checkbox";
-    elem.append(check);
 
-    document.querySelector(".tasks").append(elem);
-
-})
-document.querySelector(".save").addEventListener("click", () => {
-    localStorage.setItem("tasks", JSON.stringify(data));
-});
-document.querySelector(".load").addEventListener("click", () => {
-    data = JSON.parse(localStorage.getItem("tasks"));
-    
-});
-document.addEventListener('DOMContentLoaded', () => {
-    
-})
