@@ -80,3 +80,5 @@ document.createelevent('div')
 
 СОЗДАЕТ ОТДЕЛЬНЫЙ div
 document.body.append(); добавляет элемент
+
+
