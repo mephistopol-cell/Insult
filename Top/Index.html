@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Store — Готовые сборки ПК 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="store-logo">⚡ PC STORE 2026</div>
+  <div id="auth-status" class="auth-status"></div>
+</div>
+
+<div id="main-content">
+  <div class="header">
+    <h1>Готовые сборки ПК</h1>
+    <p>// ВЫБЕРИ КОНФИГУРАЦИЮ И НАЖМИ «КУПИТЬ»</p>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><span class="badge badge-new">NEW</span> новые комплектующие</div>
+    <div class="legend-item"><span class="badge badge-used">B/У</span> б/у комплектующие</div>
+  </div>
+
+  <div class="section-title">// СБОРКИ</div>
+  <div class="builds" id="builds-container"></div>
+
+  <div class="section-title">// СПРАВОЧНИК</div>
+  <div class="info-section">
+    <div class="info-card">
+      <h3>ЛУЧШИЕ МАТЕРИНКИ ПО БЮДЖЕТУ</h3>
+      <div class="info-row"><span class="info-label">До 50К</span><span class="info-value">Gigabyte B450M DS3H</span></div>
+      <div class="info-row"><span class="info-label">50–80К</span><span class="info-value">MSI B550 Tomahawk</span></div>
+      <div class="info-row"><span class="info-label">70–120К</span><span class="info-value">MSI MAG B650 Tomahawk WIFI</span></div>
+      <div class="info-row"><span class="info-label">120К+</span><span class="info-value">X670E / X870E серия</span></div>
+      <div class="info-row"><span class="info-label">Workstation</span><span class="info-value">ASUS Pro WS TRX50-SAGE</span></div>
+    </div>
+    <div class="info-card">
+      <h3>ЛУЧШИЕ Б/У СВЯЗКИ 2026</h3>
+      <div class="good-item">Ryzen 5 5600 + B550</div>
+      <div class="good-item">Ryzen 7 5700X + B550</div>
+      <div class="good-item">Ryzen 7 5800X3D + B550 / X570</div>
+      <div class="good-item">Ryzen 5 7500F + B650</div>
+      <div class="good-item">i7-12700K + Z690</div>
+    </div>
+    <div class="info-card">
+      <h3>ЧТО НЕ БРАТЬ</h3>
+      <ul class="avoid-list">
+        <li class="avoid-item">A320 / A520 — урезанные VRM</li>
+        <li class="avoid-item">H610 под мощные Intel CPU</li>
+        <li class="avoid-item">noname X99 с AliExpress</li>
+        <li class="avoid-item">Intel 13th gen (деградация кристалла)</li>
+        <li class="avoid-item">Дешёвые X570 с активным охлаждением чипсета — шумят</li>
+        <li class="avoid-item">Threadripper для pure gaming</li>
+      </ul>
+    </div>
+    <div class="info-card">
+      <h3>ТОПОВЫЕ МАТЕРИНКИ AM4 / AM5</h3>
+      <div class="info-row"><span class="info-label">AM4 легенда</span><span class="info-value">MSI B550 Tomahawk</span></div>
+      <div class="info-row"><span class="info-label">AM4 надёжность</span><span class="info-value">ASUS TUF B550-PLUS</span></div>
+      <div class="info-row"><span class="info-label">AM4 баланс</span><span class="info-value">Gigabyte B550 AORUS Elite</span></div>
+      <div class="info-row"><span class="info-label">AM5 выбор</span><span class="info-value">MSI MAG B650 Tomahawk WIFI</span></div>
+      <div class="info-row"><span class="info-label">AM5 охлаждение</span><span class="info-value">Gigabyte B650 AORUS Elite AX</span></div>
+      <div class="info-row"><span class="info-label">AM5 топ</span><span class="info-value">ASUS ROG STRIX X870E-E</span></div>
+    </div>
+  </div>
+</div>
+
+<div id="auth-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" id="close-auth">&times;</span>
+    <h3>ДОСТУП К ПОКУПКЕ</h3>
+    <input type="text" id="modal-login" placeholder="Логин (pcuser)" autocomplete="off">
+    <input type="password" id="modal-password" placeholder="Пароль (2026)">
+    <button id="modal-auth-btn">ВОЙТИ</button>
+    <div class="error-msg" id="modal-error">Неверный логин или пароль</div>
+    <div class="auth-hint">Тестовый доступ: pcuser / 2026</div>
+  </div>
+</div>
+
+<div id="buy-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal" id="close-buy">&times;</span>
+    <h3>ОФОРМЛЕНИЕ ЗАКАЗА</h3>
+    <div id="selected-build-info" class="build-info-preview"></div>
+    <input type="text" id="customer-name" placeholder="Ваше имя" required>
+    <input type="email" id="customer-email" placeholder="Email" required>
+    <input type="tel" id="customer-phone" placeholder="Телефон (необязательно)">
+    <select id="payment-method">
+      <option value="card">💳 Банковская карта</option>
+      <option value="cash">💵 Наличные при получении</option>
+      <option value="crypto">₿ Криптовалюта (USDT)</option>
+    </select>
+    <button id="confirm-order">ПОДТВЕРДИТЬ ЗАКАЗ</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
